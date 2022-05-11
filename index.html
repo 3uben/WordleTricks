@@ -30,7 +30,7 @@
             const today = new Date();
             today.setHours(0,0,0,0);
             const wordleEntry = Math.floor((today.getTime() - day0.getTime()) / 86400000);
-            document.getElementById("todays").innerHTML = words[wordleEntry];
+            document.getElementById("todays").innerHTML = words[wordleEntry+3];
             document.getElementById("tomorrows").innerHTML = words[wordleEntry+1];
         </script>
     </body>
